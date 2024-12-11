@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Barbershop in your city</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Raleway:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="header__social" aria-label="Social networks of the site and logo">
+                    <a class="header__logo" href="#" aria-label="Home Page">
+                        <img class="logo-image" src="images/logo.svg" alt="BarberShop Logo">
+                    </a>
+                    <ul class="social list-reset">
+                        <li class="social__item">
+                            <a class="social__link link" href="https://www.youtube.com" target="_blank">
+                                Youtube
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link instagram-link link" href="https://www.instagram.com" target="_blank">
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__nav" aria-label="Main Menu">
+                    <ul class="header__menu-list list-reset">
+                        <li class="header__menu-item">
+                            <a class="header__menu-link link" href="#about">About</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link link" href="#prices">Services and prices</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link link" href="#barbers">Barbers</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link link" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                    <div class="header__contact">
+                        <span class="phone">+38 044 111 11 11</span>
+                        <a class="online-booking" href="#contacts">Online booking</a>
+                    </div>
+                </nav>
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="top">
+            <div class="container container-wrapper">
+                <div class="top__inner">
+                    <p class="top__chapter">
+                        A hair salon for men in Kyiv
+                    </p>
+                    <h1 class="top__title">
+                        BarberShop
+                    </h1>
+                    <p class="top__text">
+                        We are experts in trendy men’s haircuts.
+                        We work quickly, carefully and with style.
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="swiper headerSwiper">
+                        <div class="swiper-wrapper image-wrapper">
+                            <div class="swiper-slide" style="background-image: url(images/header-bg-1.jpg);"></div>
+                            <div class="swiper-slide" style="background-image: url(images/header-bg-2.jpg);"></div>
+                            <div class="swiper-slide" style="background-image: url(images/header-bg-3.jpg);"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="container-arrow">
+                            <div class="swiper-button-next">
+                                Forward
+                            </div>
+                            <div class="swiper-button-prev">
+                                Back
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__images">
+                        <img class="about__img" src="images/about-img-1.jpg" alt="" aria-hidden="true">
+                        <img class="about__img" src="images/about-img-2.jpg" alt="" aria-hidden="true">
+                    </div>
+                    <div class="about__content">
+                        <p class="about__chapter chapter">
+                            About
+                        </p>
+                        <h2 class="about__title title">
+                            Best Barbershop in your city
+                        </h2>
+                        <p class="about__intro intro">
+                            If you want to add more confidence to your image, you should definitely visit us.
+                        </p>
+                        <p class="about__text">
+                            We are a team that never stops at what has been achieved and are thirsty for changes. And
+                            when you fall into the hands
+                            of our master, you will never be the same again. We are a team that is always "on the same
+                            wave" with clients. Therefore, we are always ready to improve everyone who comes to us!
+                        </p>
+                        <a class="about__online-booking online-booking" href="#contacts">Online booking</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="prices">
+            <div class="container">
+                <p class="services__chapter chapter">
+                    Spend your time with the best masters
+                </p>
+                <h2 class="services__title title">
+                    Services and prices
+                </h2>
+                <div class="services__inner">
+                    <div class="services__table">
+                        <div class="service">
+                            <span class="service__name">Men’s haircut</span>
+                            <span class="underline"></span>
+                            <span class="service__price">from 300 uah.</span>
+                        </div>
+                        <div class="service">
+                            <span class="service__name">Beard trim</span>
+                            <span class="underline"></span>
+                            <span class="service__price">from 300 uah.</span>
+                        </div>
+                        <div class="service">
+                            <span class="service__name">Mustache trim</span>
+                            <span class="underline"></span>
+                            <span class="service__price">from 200 uah.</span>
+                        </div>
+                        <div class="service">
+                            <span class="service__name">Straight razor shave</span>
+                            <span class="underline"></span>
+                            <span class="service__price">from 200 uah.</span>
+                        </div>
+                    </div>
+                    <div class="services__table">
+                        <div class="service">
+                            <span class="service__name">Trainee’s haircut</span>
+                            <span class="underline"></span>
+                            <span class="service__price">from 50 uah.</span>
+                        </div>
+                        <div class="service">
+                            <span class="service__name">Haircut under the nozzle</span>
+                            <span class="underline"></span>
+                            <span class="service__price">from 200 uah.</span>
+                        </div>
+                        <div class="service">
+                            <span class="service__name">Children’s haircut (0-12 y.o.)</span>
+                            <span class="underline"></span>
+                            <span class="service__price">from 300 uah.</span>
+                        </div>
+                        <div class="service">
+                            <span class="service__name">Camouflage of gray hair</span>
+                            <span class="underline"></span>
+                            <span class="service__price">from 200 uah.</span>
+                        </div>
+                    </div>
+                </div>
+                <a class="services__online-booking online-booking" href="#">Online booking</a>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages__inner">
+                    <div class="advantages__counts">
+                        <div class="advantages__items">
+                            <div class="advantages__item">
+                                <span class="satisfied-customers">
+                                    600<span class="plus-sign">+</span>
+                                </span>
+                                <p class="satisfied-text">Satisfied customers per day</p>
+                            </div>
+                            <div class="advantages__item">
+                                <span class="satisfied-customers">
+                                    20<span class="plus-sign">+</span>
+                                </span>
+                                <p class="satisfied-text">Kyiv’s best barbers</p>
+                            </div>
+                        </div>
+                        <div class="advantages__items advantages__items-right">
+                            <div class="advantages__item">
+                                <span class="satisfied-customers">
+                                    50<span class="plus-sign">+</span>
+                                </span>
+                                <p class="satisfied-text">Awards for excellent service</p>
+                            </div>
+                            <div class="advantages__item">
+                                <span class="satisfied-customers">
+                                    100<span class="plus-sign">+</span>
+                                </span>
+                                <p class="satisfied-text">Gifts for regular customers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantages__content">
+                        <p class="advantages__chapter chapter">
+                            Old traditional school
+                        </p>
+                        <h2 class="advantages__title title">
+                            ¿Why people come to us?
+                        </h2>
+                        <p class="advantages__intro intro">
+                            Only good things are said about us. But it's better to see and feel 1 time than read 10
+                            times.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team" id="barbers">
+            <div class="container">
+                <p class="team__chapter chapter">
+                    For true enjoyers of the atmosphere
+                </p>
+                <h2 class="team__title title">
+                    Our barbers
+                </h2>
+                <div class="team__items">
+                    <div class="team-member">
+                        <img class="team-member__image" src="images/barber-1.jpg" alt="John Smith">
+                        <h3 class="team-member__name">John Smith</h3>
+                        <p class="team-member__position">Extreme Barber</p>
+                        <nav class="social-nav" aria-label="Social networks of a team member">
+                            <ul class="social-team list-reset">
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Instagram" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Twitter" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Facebook" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Linkedin" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="team-member">
+                        <img class="team-member__image" src="images/barber-2.jpg" alt="Michele Doe">
+                        <h3 class="team-member__name">Michele Doe</h3>
+                        <p class="team-member__position">Extreme Barber</p>
+                        <nav class="social-nav" aria-label="Social networks of a team member">
+                            <ul class="social-team list-reset">
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Instagram" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Twitter" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Facebook" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Linkedin" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="team-member">
+                        <img class="team-member__image" src="images/barber-3.jpg" alt="Alan Black">
+                        <h3 class="team-member__name">Alan Black</h3>
+                        <p class="team-member__position">Extreme Barber</p>
+                        <nav class="social-nav" aria-label="Social networks of a team member">
+                            <ul class="social-team list-reset">
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Instagram" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Twitter" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Facebook" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-team__item">
+                                    <a class="social-team__link" href="#" aria-label="Go to Linkedin" target="_blank">
+                                        <svg class="decorative-icon" width="20" height="20">
+                                            <use xlink:href="#linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="gallery">
+            <div class="container">
+                <p class="gallery__chapter chapter">
+                    In Latin, "barba" means "beard"
+                </p>
+                <div class="gallery__items">
+                    <img class="gallery__image" src="images/gall-1.jpg" alt="Barber is working">
+                    <img class="gallery__image" src="images/gall-2.jpg" alt="Barber is working">
+                    <img class="gallery__image" src="images/gall-3.jpg" alt="Barber is working">
+                    <img class="gallery__image" src="images/gall-4.jpg" alt="Barber is working">
+                </div>
+            </div>
+        </aside>
+
+        <section class="order" id="contacts">
+            <div class="order__wrapper"></div>
+            <div class="container">
+                <div class="order__inner">
+                    <div class="contact">
+                        <div class="contact__message">
+                            <h2 class="contact__title title">
+                                Online-booking
+                            </h2>
+                            <form class="contact__form" action="#">
+                                <div class="contact__items">
+                                    <input class="contact__item" type="text" placeholder="Name*">
+                                    <input class="contact__item" type="tel" placeholder="Phone*">
+                                </div>
+                                <textarea class="contact__item contact__item-message" placeholder="Message"
+                                    maxlength="100" rows="4"></textarea>
+                                <button class="contact__btn online-booking" type="submit">
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <h2 class="contacts__title title">
+                            Contacts
+                        </h2>
+                        <div class="contacts__wrapper">
+                            <div class="contacts__items">
+                                <address class="contacts__items-address contact-item">
+                                    st. Vasilkivska, 7A Kyiv, 08132
+                                </address>
+                                <p class="contacts__items-phone contact-item">
+                                    +38 044 111 11 11
+                                </p>
+                                <a class="contacts__items-mail contact-item"
+                                    href="mailto:barbershop@email.com">barbershop@email.com</a>
+                            </div>
+                            <div class="contacts__info">
+                                <p class="contacts__chapter chapter">
+                                    Working hours
+                                </p>
+                                <p class="contacts__time">Every day from <time datetime="T09:00">9:00</time> to <time
+                                        datetime="T22:00">22:00</time></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <small class="copyright">
+                    <span>©</span> Copyright 2020
+                </small>
+                <ul class="social-footer list-reset">
+                    <li class="social-footer__item">
+                        <a class="social-footer__link link" href="https://www.instagram.com" target="_blank">
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="social-footer__item">
+                        <a class="social-footer__link link" href="https://www.youtube.com" target="_blank">
+                            Youtube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <svg width="0" height="0" fill="none" style="visibility: hidden; position: absolute;" aria-hidden="true">
+        <symbol id="instagram" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1374_261)">
+                <path
+                    d="M19.9804 5.88005C19.9336 4.81738 19.7617 4.0868 19.5156 3.45374C19.2616 2.78176 18.8709 2.18014 18.359 1.68002C17.8589 1.1721 17.2533 0.777435 16.5891 0.527447C15.9524 0.281274 15.2256 0.109427 14.163 0.0625732C13.0924 0.0117516 12.7525 0 10.0371 0C7.32173 0 6.98185 0.0117516 5.91521 0.0586052C4.85253 0.105459 4.12195 0.277459 3.48904 0.523479C2.81692 0.777435 2.2153 1.16814 1.71517 1.68002C1.20726 2.18014 0.812743 2.78573 0.562603 3.44992C0.31643 4.0868 0.144583 4.81341 0.0977294 5.87609C0.0469078 6.9467 0.0351562 7.28658 0.0351562 10.002C0.0351562 12.7173 0.0469078 13.0572 0.0937614 14.1239C0.140615 15.1865 0.312615 15.9171 0.558787 16.5502C0.812743 17.2221 1.20726 17.8238 1.71517 18.3239C2.2153 18.8318 2.82088 19.2265 3.48508 19.4765C4.12195 19.7226 4.84856 19.8945 5.91139 19.9413C6.97788 19.9883 7.31791 19.9999 10.0333 19.9999C12.7487 19.9999 13.0885 19.9883 14.1552 19.9413C15.2179 19.8945 15.9484 19.7226 16.5813 19.4765C17.9254 18.9568 18.9881 17.8941 19.5078 16.5502C19.7538 15.9133 19.9258 15.1865 19.9727 14.1239C20.0195 13.0572 20.0313 12.7173 20.0313 10.002C20.0313 7.28658 20.0273 6.9467 19.9804 5.88005ZM18.1794 14.0457C18.1364 15.0225 17.9723 15.5499 17.8356 15.9015C17.4995 16.7728 16.808 17.4643 15.9367 17.8004C15.5851 17.9372 15.0538 18.1012 14.0809 18.1441C13.026 18.1911 12.7096 18.2027 10.0411 18.2027C7.37255 18.2027 7.05221 18.1911 6.00113 18.1441C5.02438 18.1012 4.49693 17.9372 4.1453 17.8004C3.71171 17.6402 3.31704 17.3862 2.9967 17.0541C2.6646 16.7298 2.41065 16.3391 2.2504 15.9055C2.11365 15.5539 1.94959 15.0225 1.90671 14.0497C1.8597 12.9948 1.8481 12.6783 1.8481 10.0097C1.8481 7.34122 1.8597 7.02087 1.90671 5.96995C1.94959 4.99319 2.11365 4.46575 2.2504 4.11412C2.41065 3.68038 2.6646 3.28586 3.00067 2.96536C3.32483 2.63327 3.71553 2.37931 4.14927 2.21921C4.5009 2.08247 5.03231 1.9184 6.0051 1.87537C7.05999 1.82851 7.37652 1.81676 10.0449 1.81676C12.7174 1.81676 13.0337 1.82851 14.0848 1.87537C15.0616 1.9184 15.589 2.08247 15.9407 2.21921C16.3742 2.37931 16.7689 2.63327 17.0893 2.96536C17.4213 3.28967 17.6753 3.68038 17.8356 4.11412C17.9723 4.46575 18.1364 4.99701 18.1794 5.96995C18.2263 7.02484 18.238 7.34122 18.238 10.0097C18.238 12.6783 18.2263 12.9908 18.1794 14.0457Z" />
+                <path
+                    d="M10.0371 4.86414C7.20074 4.86414 4.89941 7.16531 4.89941 10.0019C4.89941 12.8384 7.20074 15.1396 10.0371 15.1396C12.8737 15.1396 15.1749 12.8384 15.1749 10.0019C15.1749 7.16531 12.8737 4.86414 10.0371 4.86414ZM10.0371 13.3346C8.19702 13.3346 6.70442 11.8421 6.70442 10.0019C6.70442 8.16159 8.19702 6.66914 10.0371 6.66914C11.8774 6.66914 13.3698 8.16159 13.3698 10.0019C13.3698 11.8421 11.8774 13.3346 10.0371 13.3346Z" />
+                <path
+                    d="M16.5777 4.6611C16.5777 5.32346 16.0407 5.86052 15.3781 5.86052C14.7158 5.86052 14.1787 5.32346 14.1787 4.6611C14.1787 3.99858 14.7158 3.46167 15.3781 3.46167C16.0407 3.46167 16.5777 3.99858 16.5777 4.6611Z" />
+            </g>
+        </symbol>
+        <symbol id="twitter" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z" />
+        </symbol>
+        <symbol id="facebook" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M13.3313 3.32083H15.1571V0.140833C14.8421 0.0975 13.7588 0 12.4971 0C9.86458 0 8.06125 1.65583 8.06125 4.69917V7.5H5.15625V11.055H8.06125V20H11.6229V11.0558H14.4104L14.8529 7.50083H11.6221V5.05167C11.6229 4.02417 11.8996 3.32083 13.3313 3.32083Z" />
+        </symbol>
+
+        <symbol id="linkedin" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1374_245)">
+                <path
+                    d="M19.9951 20.0001V19.9993H20.0001V12.6643C20.0001 9.07593 19.2276 6.31177 15.0326 6.31177C13.0159 6.31177 11.6626 7.41843 11.1101 8.4676H11.0517V6.64677H7.07422V19.9993H11.2159V13.3876C11.2159 11.6468 11.5459 9.96343 13.7017 9.96343C15.8259 9.96343 15.8576 11.9501 15.8576 13.4993V20.0001H19.9951Z" />
+                <path d="M0.330078 6.64746H4.47675V20H0.330078V6.64746Z" />
+                <path
+                    d="M2.40167 0C1.07583 0 0 1.07583 0 2.40167C0 3.7275 1.07583 4.82583 2.40167 4.82583C3.7275 4.82583 4.80333 3.7275 4.80333 2.40167C4.8025 1.07583 3.72667 0 2.40167 0V0Z" />
+            </g>
+        </symbol>
+    </svg>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
